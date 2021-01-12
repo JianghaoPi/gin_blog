@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/JianghaoPi/gin_blog/pkg"
+	"gin_blog/pkg/setting"
 )
 
 func main()  {
-	fmt.Println(pkg.HTTPPort)
+	fmt.Println(setting.HTTPPort)
 }
